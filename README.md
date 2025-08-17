@@ -1,4 +1,4 @@
-# 🎨 Mavis Busenur Balci - Portfolio Website
+# 🎨 Art/Design - Portfolio Website
 
 A stunning, modern portfolio website showcasing the intersection of UI/UX design, engineering, and artistic creativity. Built with cutting-edge web technologies and featuring a unique Matisse-inspired design aesthetic.
 
