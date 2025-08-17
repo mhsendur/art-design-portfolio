@@ -1,0 +1,36 @@
+---
+title: "Digital Harmony #1"
+description: "An exploration of color and form through algorithmic generation, inspired by Kandinsky's color theories."
+type: "illustration"
+medium: "Digital Art"
+year: "2024"
+dimensions: "3840x2160px"
+image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+category: "Abstract"
+tags: ["Digital Art", "Generative", "Color Theory", "Abstract"]
+featured: true
+---
+
+# Digital Harmony #1
+
+Created during my exploration of creative coding, this piece represents the intersection of mathematical precision and artistic intuition. Using p5.js, I developed an algorithm that generates organic color relationships based on Kandinsky's theories about the emotional properties of color.
+
+## Creative Process
+
+The composition emerges from a complex interplay of sine waves and random noise functions, creating forms that feel both natural and otherworldly. Each color is carefully selected from a palette inspired by sunset gradients, with opacity and blending modes creating depth and movement.
+
+## Technical Approach
+
+```javascript
+// Core generation algorithm
+for (let i = 0; i < 1000; i++) {
+  let x = noise(i * 0.01, time * 0.001) * width;
+  let y = noise(i * 0.01 + 100, time * 0.001) * height;
+  let hue = map(x + y, 0, width + height, 180, 360);
+  
+  fill(hue, 80, 90, 0.6);
+  ellipse(x, y, 20, 20);
+}
+```
+
+This piece represents my ongoing investigation into how computational processes can generate genuinely expressive visual art. 
